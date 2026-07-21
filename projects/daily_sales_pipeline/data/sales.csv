@@ -1,0 +1,8 @@
+order_id,order_date,customer,region,product,quantity,unit_price
+1001,2026-07-01,Aarav,East,Keyboard,2,35.50
+1002,2026-07-01,Meera,West,Mouse,5,12.00
+1003,2026-07-02,Rohan,North,Monitor,1,180.00
+1004,2026-07-02,Anika,South,Laptop Stand,3,28.75
+1005,2026-07-03,Dev,East,USB Cable,10,4.99
+1006,2026-07-03,Isha,West,Webcam,2,65.00
+

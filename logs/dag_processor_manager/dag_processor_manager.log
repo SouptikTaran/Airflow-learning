@@ -1412,3 +1412,192 @@ File Path                               PID    Runtime      # DAGs    # Errors  
 ================================================================================
 [2026-07-21T20:43:17.819+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
 [2026-07-21T20:43:17.861+0000] {manager.py:824} INFO - There are 8 files in /opt/airflow/dags
+[2026-07-21T20:43:20.063+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/s3_upload_data_csv.py                           1           0  0.20s           2026-07-21T20:43:18                      43
+/opt/airflow/dags/dag_taskflow.py                                 1           0  0.18s           2026-07-21T20:43:16                      12
+/opt/airflow/dags/python_operator.py      9198  0.00s             1           0  0.14s           2026-07-21T20:43:09                      12
+/opt/airflow/dags/postgres_hooks.py                               1           0  0.12s           2026-07-21T20:43:19                      12
+/opt/airflow/dags/cron.py                                         0           1  0.12s           2026-07-21T20:43:16                       5
+/opt/airflow/dags/our_first_dag.py                                1           0  0.12s           2026-07-21T20:43:13                      12
+/opt/airflow/dags/catchup_backfill.py                             0           1  0.08s           2026-07-21T20:43:15                       5
+/opt/airflow/dags/postgres_operator.py                            0           1  0.07s           2026-07-21T20:43:19                       5
+================================================================================
+[2026-07-21T20:43:48.614+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-07-21T20:43:48.664+0000] {manager.py:824} INFO - There are 8 files in /opt/airflow/dags
+[2026-07-21T20:43:50.883+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/postgres_hooks.py       9314  0.02s             1           0  0.15s           2026-07-21T20:43:40                      12
+/opt/airflow/dags/python_operator.py                              1           0  0.14s           2026-07-21T20:43:41                      12
+/opt/airflow/dags/dag_taskflow.py                                 1           0  0.12s           2026-07-21T20:43:48                      12
+/opt/airflow/dags/s3_upload_data_csv.py                           1           0  0.11s           2026-07-21T20:43:49                      10
+/opt/airflow/dags/our_first_dag.py                                1           0  0.10s           2026-07-21T20:43:45                      12
+/opt/airflow/dags/catchup_backfill.py                             0           1  0.10s           2026-07-21T20:43:47                       5
+/opt/airflow/dags/postgres_operator.py    9317  0.00s             0           1  0.09s           2026-07-21T20:43:40                       5
+/opt/airflow/dags/cron.py                                         0           1  0.09s           2026-07-21T20:43:48                       5
+================================================================================
+[2026-07-21T20:44:19.506+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-07-21T20:44:19.602+0000] {manager.py:824} INFO - There are 8 files in /opt/airflow/dags
+[2026-07-21T20:44:21.825+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/postgres_hooks.py                               1           0  0.19s           2026-07-21T20:44:12                      12
+/opt/airflow/dags/python_operator.py                              1           0  0.18s           2026-07-21T20:44:13                      12
+/opt/airflow/dags/s3_upload_data_csv.py   9435  0.01s             1           0  0.16s           2026-07-21T20:44:11                      10
+/opt/airflow/dags/dag_taskflow.py                                 1           0  0.15s           2026-07-21T20:44:20                      12
+/opt/airflow/dags/postgres_operator.py                            0           1  0.12s           2026-07-21T20:44:12                       5
+/opt/airflow/dags/our_first_dag.py                                1           0  0.11s           2026-07-21T20:44:17                      12
+/opt/airflow/dags/catchup_backfill.py                             0           1  0.10s           2026-07-21T20:44:19                       5
+/opt/airflow/dags/cron.py                                         0           1  0.09s           2026-07-21T20:44:20                       5
+================================================================================
+[2026-07-21T20:44:49.515+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-07-21T20:44:49.669+0000] {manager.py:824} INFO - There are 8 files in /opt/airflow/dags
+[2026-07-21T20:44:51.880+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/python_operator.py                              1           0  0.17s           2026-07-21T20:44:45                      12
+/opt/airflow/dags/postgres_hooks.py                               1           0  0.16s           2026-07-21T20:44:44                      12
+/opt/airflow/dags/dag_taskflow.py                                 1           0  0.16s           2026-07-21T20:44:42                      12
+/opt/airflow/dags/our_first_dag.py                                1           0  0.15s           2026-07-21T20:44:49                      12
+/opt/airflow/dags/s3_upload_data_csv.py                           1           0  0.13s           2026-07-21T20:44:43                      10
+/opt/airflow/dags/postgres_operator.py                            0           1  0.10s           2026-07-21T20:44:44                       5
+/opt/airflow/dags/cron.py                                         0           1  0.10s           2026-07-21T20:44:42                       5
+/opt/airflow/dags/catchup_backfill.py                             0           1  0.09s           2026-07-21T20:44:51                       5
+================================================================================
+[2026-07-21T20:45:19.579+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-07-21T20:45:19.670+0000] {manager.py:824} INFO - There are 8 files in /opt/airflow/dags
+[2026-07-21T20:45:22.764+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag_taskflow.py                                 1           0  0.31s           2026-07-21T20:45:14                      12
+/opt/airflow/dags/python_operator.py                              1           0  0.14s           2026-07-21T20:45:17                      12
+/opt/airflow/dags/s3_upload_data_csv.py                           1           0  0.13s           2026-07-21T20:45:15                      10
+/opt/airflow/dags/postgres_hooks.py                               1           0  0.12s           2026-07-21T20:45:16                      12
+/opt/airflow/dags/our_first_dag.py                                1           0  0.11s           2026-07-21T20:45:21                      12
+/opt/airflow/dags/catchup_backfill.py                             0           1  0.09s           2026-07-21T20:45:13                       5
+/opt/airflow/dags/postgres_operator.py                            0           1  0.08s           2026-07-21T20:45:16                       5
+/opt/airflow/dags/cron.py                                         0           1  0.06s           2026-07-21T20:45:14                       5
+================================================================================
+[2026-07-21T20:45:49.638+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-07-21T20:45:49.718+0000] {manager.py:824} INFO - There are 8 files in /opt/airflow/dags
+[2026-07-21T20:45:52.789+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag_taskflow.py                                 1           0  0.19s           2026-07-21T20:45:46                      12
+/opt/airflow/dags/postgres_hooks.py                               1           0  0.15s           2026-07-21T20:45:48                      12
+/opt/airflow/dags/our_first_dag.py                                1           0  0.13s           2026-07-21T20:45:43                      12
+/opt/airflow/dags/cron.py                                         0           1  0.12s           2026-07-21T20:45:46                       5
+/opt/airflow/dags/s3_upload_data_csv.py                           1           0  0.11s           2026-07-21T20:45:47                      10
+/opt/airflow/dags/catchup_backfill.py                             0           1  0.10s           2026-07-21T20:45:45                       5
+/opt/airflow/dags/python_operator.py                              1           0  0.10s           2026-07-21T20:45:49                      12
+/opt/airflow/dags/postgres_operator.py                            0           1  0.09s           2026-07-21T20:45:48                       5
+================================================================================
+[2026-07-21T20:46:20.428+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-07-21T20:46:20.482+0000] {manager.py:824} INFO - There are 8 files in /opt/airflow/dags
+[2026-07-21T20:46:23.703+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/our_first_dag.py                                1           0  0.14s           2026-07-21T20:46:15                      12
+/opt/airflow/dags/postgres_hooks.py                               1           0  0.13s           2026-07-21T20:46:20                      12
+/opt/airflow/dags/python_operator.py                              1           0  0.12s           2026-07-21T20:46:21                      12
+/opt/airflow/dags/dag_taskflow.py                                 1           0  0.11s           2026-07-21T20:46:18                      12
+/opt/airflow/dags/s3_upload_data_csv.py                           1           0  0.10s           2026-07-21T20:46:19                      10
+/opt/airflow/dags/postgres_operator.py                            0           1  0.09s           2026-07-21T20:46:20                       5
+/opt/airflow/dags/catchup_backfill.py                             0           1  0.08s           2026-07-21T20:46:17                       5
+/opt/airflow/dags/cron.py                                         0           1  0.07s           2026-07-21T20:46:18                       5
+================================================================================
+[2026-07-21T20:46:50.436+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-07-21T20:46:50.611+0000] {manager.py:824} INFO - There are 8 files in /opt/airflow/dags
+[2026-07-21T20:46:53.755+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag_taskflow.py                                 1           0  0.27s           2026-07-21T20:46:50                      12
+/opt/airflow/dags/postgres_hooks.py                               1           0  0.16s           2026-07-21T20:46:52                      12
+/opt/airflow/dags/our_first_dag.py                                1           0  0.14s           2026-07-21T20:46:47                      12
+/opt/airflow/dags/python_operator.py                              1           0  0.14s           2026-07-21T20:46:53                      12
+/opt/airflow/dags/s3_upload_data_csv.py                           1           0  0.13s           2026-07-21T20:46:51                      10
+/opt/airflow/dags/postgres_operator.py                            0           1  0.11s           2026-07-21T20:46:52                       5
+/opt/airflow/dags/catchup_backfill.py                             0           1  0.10s           2026-07-21T20:46:49                       5
+/opt/airflow/dags/cron.py                                         0           1  0.08s           2026-07-21T20:46:50                       5
+================================================================================
+[2026-07-21T20:47:21.198+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-07-21T20:47:21.294+0000] {manager.py:824} INFO - There are 8 files in /opt/airflow/dags
+[2026-07-21T20:47:24.584+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/our_first_dag.py                                1           0  0.16s           2026-07-21T20:47:19                      12
+/opt/airflow/dags/postgres_hooks.py      10157  0.02s             1           0  0.13s           2026-07-21T20:47:13                      12
+/opt/airflow/dags/dag_taskflow.py                                 1           0  0.13s           2026-07-21T20:47:22                      12
+/opt/airflow/dags/s3_upload_data_csv.py                           1           0  0.13s           2026-07-21T20:47:23                      10
+/opt/airflow/dags/python_operator.py                              1           0  0.12s           2026-07-21T20:47:15                      12
+/opt/airflow/dags/catchup_backfill.py                             0           1  0.09s           2026-07-21T20:47:21                       5
+/opt/airflow/dags/postgres_operator.py   10160  0.01s             0           1  0.09s           2026-07-21T20:47:13                       5
+/opt/airflow/dags/cron.py                                         0           1  0.08s           2026-07-21T20:47:22                       5
+================================================================================
+[2026-07-21T20:47:51.271+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-07-21T20:47:51.357+0000] {manager.py:824} INFO - There are 9 files in /opt/airflow/dags
+[2026-07-21T20:47:54.672+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/projects/daily_sales_pipeline.py                           1           0  0.32s           2026-07-21T20:47:51                      43
+/opt/airflow/dags/s3_upload_data_csv.py                                      1           0  0.20s           2026-07-21T20:47:45                      10
+/opt/airflow/dags/postgres_hooks.py                                          1           0  0.18s           2026-07-21T20:47:46                      12
+/opt/airflow/dags/dag_taskflow.py                   10276  0.01s             1           0  0.16s           2026-07-21T20:47:43                      12
+/opt/airflow/dags/python_operator.py                                         1           0  0.15s           2026-07-21T20:47:47                      12
+/opt/airflow/dags/our_first_dag.py                                           1           0  0.15s           2026-07-21T20:47:51                      12
+/opt/airflow/dags/postgres_operator.py                                       0           1  0.12s           2026-07-21T20:47:46                       5
+/opt/airflow/dags/cron.py                           10273  0.02s             0           1  0.11s           2026-07-21T20:47:43                       5
+/opt/airflow/dags/catchup_backfill.py                                        0           1  0.09s           2026-07-21T20:47:53                       5
+================================================================================
+[2026-07-21T20:48:21.622+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-07-21T20:48:21.687+0000] {manager.py:824} INFO - There are 9 files in /opt/airflow/dags
+[2026-07-21T20:48:24.816+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/projects/daily_sales_pipeline.py                           1           0  0.16s           2026-07-21T20:48:23                      10
+/opt/airflow/dags/dag_taskflow.py                                            1           0  0.16s           2026-07-21T20:48:16                      12
+/opt/airflow/dags/postgres_hooks.py                                          1           0  0.15s           2026-07-21T20:48:18                      12
+/opt/airflow/dags/python_operator.py                                         1           0  0.14s           2026-07-21T20:48:19                      12
+/opt/airflow/dags/our_first_dag.py                                           1           0  0.13s           2026-07-21T20:48:23                      12
+/opt/airflow/dags/s3_upload_data_csv.py                                      1           0  0.12s           2026-07-21T20:48:17                      10
+/opt/airflow/dags/cron.py                                                    0           1  0.09s           2026-07-21T20:48:16                       5
+/opt/airflow/dags/postgres_operator.py                                       0           1  0.09s           2026-07-21T20:48:18                       5
+/opt/airflow/dags/catchup_backfill.py                                        0           1  0.08s           2026-07-21T20:48:15                       5
+================================================================================
+[2026-07-21T20:48:52.415+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-07-21T20:48:52.540+0000] {manager.py:824} INFO - There are 9 files in /opt/airflow/dags
