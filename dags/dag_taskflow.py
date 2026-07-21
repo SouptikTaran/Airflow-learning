@@ -10,7 +10,7 @@ default_args = {
 @dag(
     dag_id="taskflow_dag",
     description="A simple DAG to demonstrate TaskFlow API",
-    start_date=datetime(2024, 1, 1),
+    start_date=datetime(2026, 1, 1),
     schedule="@daily",  # schedule_interval is deprecated in Airflow 2.4+
     default_args=default_args,
     catchup=False,

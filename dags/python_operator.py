@@ -28,7 +28,7 @@ default_args = {
 with DAG(
     dag_id="python_dag_v1",
     description="A simple DAG to demonstrate python operators",
-    start_date=datetime(2024, 1, 1),
+    start_date=datetime(2026, 1, 1),
     schedule_interval="@daily",
     catchup=False,
     default_args=default_args

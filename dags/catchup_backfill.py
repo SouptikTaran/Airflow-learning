@@ -9,13 +9,18 @@ default_args = {
     'retry_delay': timedelta(minutes=5),
 }
 
+# catchup is set to False, so the DAG will not run for any past dates when it is first deployed. It will only run for the current date and future dates.
+#backfill is the process of running a DAG for past dates. If catchup is set to True, the DAG will run for all past dates from the start_date to the current date when it is first deployed. If catchup is set to False, the DAG will only run for the current date and future dates, and any past dates will be skipped.
+
 with DAG(
-    dag_id="our_first_dag",
+    dag_id="catchup_backfill_dagv1",
+    description="A simple DAG to demonstrate catchup and backfill",
     start_date=datetime(2026, 1, 1),
     schedule_interval="@daily",
     catchup=False,
     default_args=default_args
-) as dag:
+)
+as dag:
     task1 = BashOperator(
         task_id="Hello_world", 
         bash_command="echo 'Hello World!'"
@@ -31,13 +36,4 @@ with DAG(
         bash_command="echo 'Hello Airflow!'"
     )
 
-    # Task dependency method 1
-    # task1.set_downstream(task2)
-    # task1.set_downstream(task3)
-
-    # Task dependency method 2
-    # task1 >> task2
-    # task1 >> task3
-
-    # Task dependency method 3
     task1 >> [task2, task3]
